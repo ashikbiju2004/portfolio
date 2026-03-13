@@ -1,0 +1,108 @@
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s ease;
+    padding: 8px 12px;
+}
+nav ul li a:hover {
+    background-color:rgba(7, 32, 169, 0.785) ;
+    color: black;
+}
+p {
+    color: #333;
+    font-size: 20px;
+    line-height: 1.6;
+    padding:20px;
+}
+h1{
+    text-align: center;
+     color: black;
+}
+div.contact{
+    padding: 20px;
+     width: 300px;
+}
+img.homeimg{
+    border-radius: 50%;
+    max-width: 200px;
+    height: 200px;
+    object-fit:cover;
+    /*align-content: center;
+    padding-left: 550px;
+    padding-right: 550px;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+section.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin : 20px;
+    box-sizing: border-box;
+    width: 250px;
+}
+section input,section textarea,section button{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    display:block;
+}
+div.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+div.proj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(70, 222, 10);
+    max-width: 600px;
+    margin: 2rem auto;
+    box-sizing: border-box;
+
+}
+div.proj ul{
+    list-style: none;
+    padding: 0;
+    font-size: 25px;
+}
